@@ -1,0 +1,35 @@
+.hijo{
+    border: 1px solid gray;
+    width: 33%;
+    text-align: center;
+    
+}
+.App{
+    height: 100vh;
+    display: flex;
+}
+.colors{
+    display: flex;
+}
+.colores{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: rgb(19, 48, 194);
+    margin: 10px 60px 15px;
+    cursor: pointer;
+
+    
+}
+.colores:nth-child(1){
+    background-color: #4285f4;
+}
+.colores:nth-child(2){
+    background-color: #ea4335;
+}
+.colores:nth-child(3){
+    background-color: #fbbc05;
+}
+.colores:nth-child(4){
+    background-color: #34a853;
+}
